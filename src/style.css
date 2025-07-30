@@ -32,7 +32,6 @@ header {
 
 .hero h1 {
   font-weight: 700;
-  font-style: Bold;
   font-size: 96px;
   line-height: 1;
   margin: 30px 0;
@@ -57,6 +56,70 @@ header {
   background: white;
   padding: 16px 32px;
   margin-top: 32px;
+}
+
+main {
+  background-color: white;
+}
+
+section {
+  max-width: 100%;
+  margin: 0 auto;
+  padding: 100px;
+}
+
+.grid {
+  display: grid;
+  grid-gap: 64px;
+}
+
+.grid-2-columns {
+  grid-template-columns: 1fr 1fr;
+}
+
+.img-responsive {
+  width: 100%;
+  display: block;
+}
+
+main h2 {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.5;
+  margin: 0;
+  letter-spacing: 5px;
+  color: #21323a;
+  opacity: 0.3;
+  text-transform: uppercase;
+}
+
+main h3 {
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 1.5;
+  color: #21323a;
+  margin: 0;
+}
+
+main p {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 1.5;
+  color: #21323a;
+  opacity: 0.9;
+  font-style: normal;
+}
+
+.arizona-quote {
+  font-style: italic;
+  font-size: 18px;
+  margin: 60px 90px 20px 0;
+  padding-left: 12px;
+  border-left: 4px solid #c2b280;
+  color: #21323a;
+  line-height: 26px;
+  max-width: 700px;
+  opacity: 0.7;
 }
 
 @media (max-width: 900px) {
