@@ -153,6 +153,8 @@ section.secondary {
 }
 
 .card {
+  display: flex;
+  flex-direction: column;
   background-color: white;
   margin: 30px 0;
 }
@@ -169,10 +171,10 @@ section.secondary {
 }
 
 .card-footer {
-  padding: 30px 30px 30px;
+  padding: 0 30px 30px;
 }
 
-.btn {
+.card-button {
   display: block;
   font-weight: 700;
   font-size: 14px;
@@ -184,6 +186,7 @@ section.secondary {
   color: white;
   padding: 16px;
   background-color: #21323a;
+  margin-top: auto;
 }
 
 .instagram-embeds {
